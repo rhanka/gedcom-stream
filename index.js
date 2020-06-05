@@ -1,5 +1,4 @@
-var fs = require('fs'),
-    Stream = require('stream').Stream;
+var Stream = require('stream').Stream;
 
 function Gedcom() {
   this._buffer = '';
